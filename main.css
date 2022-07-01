@@ -1,0 +1,62 @@
+/* Resets */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Utils */
+    .d-flex{
+        display: flex;
+    }
+    .just-content-center{
+        justify-content: center;
+    }
+    .align-item-center{
+        align-items: center;
+    }
+    .flex-dir-col{
+        flex-direction: column;
+    }
+/* Normal css */
+body{
+    font-size: 16px;
+}
+#form-1{
+    display: none;
+}
+h1{
+    font-size: xx-large;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  #age{
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #eee;
+  }
+  #age:focus{
+    background-color: rgb(206, 200, 200);
+  }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Homework :</th>
+          <th>Show</th>
+          <th>Hide</th>
+        </tr>
+        <tr>
+            <td>Age with Selectors</td>
+            <td><button onclick="showform1(1)">Show</button></td>
+            <td><button onclick="showform1(0)">Hide</button></td>
+        </tr>
+        <tr>
+            <td>Age with Prompt</td>
+            <td><button onclick="prompt1()">Show</button></td>
+        </tr>
+        <tr>
+            <td>Calc with Prompt</td>
+            <td><button onclick="prompt2()">Show</button></td>
+        </tr>
+
+      </table>
+      <form id="form-1" class="d-flex align-item-center just-content-center flex-dir-col">
+        <h1 class="d-flex just-content-center" id="output"></h1>
+        <h3>Please Enter Your Age</h3>
+        <input type="number" name="age" id="age"/>
+        <input type="button" value="Submit" id="submit" onclick="form1()"/>
+    </form>
+</body>
+</html>
